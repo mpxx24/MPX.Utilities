@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Mariusz Piątkowski</Authors>
+    <Description>Contains some helper/estension methods I've found usefull during writing my free time projects.
+
+Because it is my first nuget package, this should be treated as a test. Anyway if someone will find it usefull feel free to check it out.</Description>
+    <PackageTags>helper methods, extension methods, web api, api</PackageTags>
+    <Version>0.0.0.2</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <BuildPackage>true</BuildPackage>    
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="8.0.3" />
+  </ItemGroup>
 
 </Project>

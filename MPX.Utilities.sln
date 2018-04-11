@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPX.Utilities", "MPX.Utilities\MPX.Utilities.csproj", "{6D4C911E-C636-42BE-B5CD-52DA4A49B6F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPX.Utilities.Tests", "MPX.Utilities.Tests\MPX.Utilities.Tests.csproj", "{017DE7E9-180F-425E-80A3-1CA5D9A28DE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6D4C911E-C636-42BE-B5CD-52DA4A49B6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D4C911E-C636-42BE-B5CD-52DA4A49B6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D4C911E-C636-42BE-B5CD-52DA4A49B6F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{017DE7E9-180F-425E-80A3-1CA5D9A28DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{017DE7E9-180F-425E-80A3-1CA5D9A28DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{017DE7E9-180F-425E-80A3-1CA5D9A28DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{017DE7E9-180F-425E-80A3-1CA5D9A28DE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
