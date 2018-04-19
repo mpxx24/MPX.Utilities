@@ -50,6 +50,7 @@
     <Reference Include="System.Web" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Converters\ApiModelToOneWithAttributesHelperFixture.cs" />
     <Compile Include="Converters\ObjectToEncodedStringHelperFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
